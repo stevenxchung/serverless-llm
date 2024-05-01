@@ -77,23 +77,9 @@ Finally, check out that your [**qa_dataset** Beam volume](https://www.beam.cloud
 
 `run the training, log the experiment and model to Comet ML`
 
-#### Local
-
-For debugging or to test that everything is working fine, run the following to train the model on a lower number of samples:
-
-```
-make dev_train_local
-```
-
-For training on the production configuration, run the following:
-
-```shell
-make train_local
-```
-
 #### On Beam
 
-As for training on your local machine, for debugging or testing, run:
+As for training remotely, for debugging or testing, run:
 
 ```shell
 make dev_train_beam
@@ -109,23 +95,9 @@ make train_beam
 
 `run the inference & log the prompts and answers to Comet ML`
 
-#### Local
-
-For testing or debugging the inference on a small subset of the dataset, run:
-
-```shell
-make dev_infer_local
-```
-
-To run the inference on the whole dataset, run the following:
-
-```shell
-make infer_local
-```
-
 #### Using Beam
 
-As for doing inference on your local machine, for debugging or testing, run:
+As for doing inference remotely, for debugging or testing, run:
 
 ```shell
 make dev_infer_beam

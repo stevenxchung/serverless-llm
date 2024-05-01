@@ -1,6 +1,6 @@
 # Serverless LLM
 
-Based on [hands-on-llms](https://github.com/iusztinpaul/hands-on-llms) except there is no local run required as many users may not have a CUDA enabled Nvidia GPU with enough memory to be able to run locally.
+Serverless LLM pipeline architecture (feature, training, and inference pipeline) based on [hands-on-llms](https://github.com/iusztinpaul/hands-on-llms) except there is no local run required for the training step as many users may not have a CUDA-enabled Nvidia GPU with enough memory to be able to train locally.
 
 ## 1. Serverless Architecture
 
